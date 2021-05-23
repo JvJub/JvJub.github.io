@@ -1,0 +1,55 @@
+// Carousel 
+.carousel {
+  padding: 81px 0px 81px 0px;
+
+  &__inner {
+    position: relative;
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  &__arrow-prev {
+    position: absolute;
+    top: 50%;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(-50%);
+    left: -66px;
+
+    img {
+      width: 31px;
+      height: 50px;
+    }
+  }
+
+  &__arrow-next {
+    position: absolute;
+    top: 50%;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(-50%);
+    left: auto;
+    right: -66px;
+
+    img {
+      width: 31px;
+      height: 50px;
+    }
+  }
+
+  // Tiny Slider
+  .tns-item {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .tns-outer {
+    button {
+      display: none;
+    }
+  }
+}

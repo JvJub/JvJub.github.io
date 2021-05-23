@@ -1,0 +1,37 @@
+.button {
+  width: 150px;
+  height: 30px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #c70101;
+  // Text
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+
+  &_main {
+    width: 300px;
+    height: 50px;
+    margin-top: 67px;
+    // Text
+    font-size: 16px;
+  }
+
+  &_feed-form {
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+  }
+
+  &_catalog {
+    width: 131px;
+    height: 40px;
+    // Text
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+  }
+}

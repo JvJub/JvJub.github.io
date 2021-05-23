@@ -1,0 +1,80 @@
+.adventages {
+  min-height: 470px;
+  padding: 70px 0px 80px 0px;
+  background-color: #f6f6f6;
+
+  &__header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #0d0d0d;
+    text-transform: uppercase;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+  }
+
+  &__items {
+    width: 247px;
+
+    img {
+      width: 70px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 38px;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #0d0d0d;
+  }
+
+  &__descr {
+    width: 239px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #0d0d0d;
+
+    a {
+      text-decoration: none;
+      color: #ff0000;
+
+      &:hover {
+        text-decoration: none;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__icons {
+
+    &_heart {
+      animation: heart 2s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+
+    &_cup {
+      animation: cup 2s ease-in-out infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+
+    &_shoe {
+      animation: shoe 2.5s ease-in-out infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+// Imports
+@import 'base/_variables';
+@import 'base/_mixins';
+@import 'fonts';
+
+// Fonts
+* {
+  font-family: 'MuseoSansCyrl', sans-serif;
+}
+
+// Styles --------------------------------------------------------------------
+
+// Base
+// Container
+@import 'base/container';
+
+// Animations
+// Heart
+@import 'base/animations/heart';
+
+// Cup
+@import 'base/animations/cup';
+
+// Shoe
+@import 'base/animations/shoe';
+
+
+// Blocks
+// Promo
+@import 'blocks/promo';
+
+// Header
+@import 'blocks/header';
+
+// Advantages
+@import 'blocks/advantages';
+
+// Consultation
+@import 'blocks/consultation';
+
+// Carousel
+@import 'blocks/carousel';
+
+// Catalog
+@import 'blocks/catalog';
+
+// Reviews
+@import 'blocks/reviews';
+
+// Footer
+@import 'blocks/footer';
+
+// Adaptive
+@import 'blocks/adaptive/adaptive';
+
+// Forms
+@import 'blocks/forms';
+
+// Modals
+@import 'blocks/modals';
+
+// Validations Error
+@import 'blocks/validations';
+
+// Circle Up
+@import 'blocks/circle-up';

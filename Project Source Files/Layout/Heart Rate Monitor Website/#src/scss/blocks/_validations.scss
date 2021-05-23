@@ -1,0 +1,24 @@
+.modal {
+  .invalid {
+    border: 1px solid #ff0000;
+  }
+
+  label.invalid {
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+.consultation {
+  .invalid {
+    border: 1px solid #ff0000;
+  }
+
+  label.invalid {
+    color: #fff;
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
