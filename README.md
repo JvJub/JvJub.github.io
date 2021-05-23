@@ -5,5 +5,5 @@
 2. "Project Source Files" - This folder contains all the source files of the projects.
 
 - Moving:
-1. To move between projects, use the following entry: https://jvjub.github.io/<<Folder>>/<<ProjectName>>.
+1. To move between projects, use the following entry: https://jvjub.github.io/Folder/ProjectName.
 2. Example: https://jvjub.github.io/JavaScript/BudgetKeeper
