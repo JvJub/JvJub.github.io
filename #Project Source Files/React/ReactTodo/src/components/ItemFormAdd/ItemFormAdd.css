@@ -1,0 +1,10 @@
+.item-add-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.item-add-form input{
+  display: inline-block;
+  width: 50%;
+}
