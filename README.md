@@ -11,4 +11,4 @@
 - Coming Soon:
 1. Complete documentation of all code and projects
 2. Finalization of the project: react-sneakers
-3. First minimum viable project: curse-trapper ( NextJs + SSR )
+3. First minimum viable project: course-trapper ( NextJs + SSR )
