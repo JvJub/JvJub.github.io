@@ -1,0 +1,39 @@
+.orders {
+  position: relative;
+  padding: 0 60px;
+  min-height: 941px;
+
+  &__back {
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+
+    &__title {
+      font-weight: bold;
+      font-size: 32px;
+      color: #000000;
+    }
+
+    &__icon {
+      position: relative;
+      margin-right: 21px;
+      width: 35px;
+      height: 35px;
+      background: #FFFFFF;
+      border: 1px solid #F2F2F2;
+      border-radius: 8px;
+      cursor: pointer;
+
+      &:hover {
+        transition: all .2s ease-in-out;
+        box-shadow: 0px 4px 4px #9D9D9D;
+      }
+
+      &__image {
+        position: absolute;
+        top: 11px;
+        left: 12px;
+      }
+    }
+  }
+}

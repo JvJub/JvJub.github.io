@@ -1,0 +1,169 @@
+.magazine {
+  min-height: 941px;
+  padding: 0 60px;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+      font-weight: bold;
+      font-size: 32px;
+      color: #000000;
+    }
+
+    &__input {
+      position: relative;
+
+      &-control {
+        padding: 13px 0 15px 46px;
+        width: 240px;
+        height: 45px;
+        border: 1px solid #F3F3F3;
+        border-radius: 10px;
+        outline: none;
+
+        // Text
+        font-weight: 300;
+        font-size: 14px;
+        color: #C4C4C4;
+
+        &:hover {
+          transition: all .2s ease-in-out;
+          box-shadow: 0px 4px 4px #9D9D9D;
+        }
+
+        &::placeholder {
+          font-weight: 300;
+          font-size: 14px;
+          color: #C4C4C4;
+        }
+      }
+
+      img {
+        position: absolute;
+        left: 18px;
+        bottom: 13px;
+      }
+    }
+  }
+
+  &__catalog {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0 20px 0;
+
+    &__item {
+      position: relative;
+      width: 210px;
+      height: 260px;
+      background: #FFFFFF;
+      border: 1px solid #F3F3F3;
+      box-sizing: border-box;
+      border-radius: 40px;
+      padding: 20px 44px 34px 31px;
+      margin: 0 30px 40px 0;
+
+      &:hover {
+        transition: all .2s ease-in-out;
+        box-shadow: 0px 4px 4px #9D9D9D;
+      }
+
+      &__favorite {
+        position: absolute;
+        top: 29px;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1px solid #F8F8F8;
+        box-sizing: border-box;
+        border-radius: 7px;
+        cursor: pointer;
+
+        &:hover {
+          transition: all .2s ease-in-out;
+          box-shadow: 0 3px 3px #9D9D9D;
+        }
+
+        svg {
+          position: absolute;
+          top: 9px;
+          left: 7px;
+
+        }
+
+        &_active {
+          background: #FEF0F0;
+
+          svg {
+            fill: #FF8585;
+          }
+        }
+      }
+
+      &__img {
+        img {
+          display: block;
+          margin: 0 auto;
+          width: 113px;
+          height: 112px;
+          margin-bottom: 14px;
+        }
+      }
+
+      &__descr {
+        width: 150px;
+        height: 34px;
+        font-size: 14px;
+        color: #000000;
+        margin-bottom: 14px;
+      }
+
+      &__bottom {
+        position: relative;
+
+        &__text {
+          font-weight: 500;
+          font-size: 11px;
+          text-transform: uppercase;
+          color: #BDBDBD;
+          margin-bottom: 2px;
+        }
+
+        &__price {
+          font-weight: bold;
+          font-size: 14px;
+          color: #000000;
+        }
+
+        &__cart {
+          padding: 5px 4px 4px 9px;
+          position: absolute;
+          right: -20px;
+          top: 0;
+          width: 32px;
+          height: 32px;
+          background: #FFFFFF;
+          border: 1px solid #F8F8F8;
+          box-sizing: border-box;
+          border-radius: 8px;
+          cursor: pointer;
+
+          &:hover {
+            transition: all .2s ease-in-out;
+            box-shadow: 0 3px 3px #9D9D9D;
+          }
+
+          &_active {
+            background: linear-gradient(180deg, #89F09C 0%, #3CC755 100%);
+          }
+        }
+      }
+
+    }
+  }
+}

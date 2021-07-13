@@ -1,0 +1,65 @@
+.carousel {
+  min-height: 384px;
+  padding: 45px 59px 39px 59px;
+
+  &__control {
+    position: relative;
+
+    &__image {
+      width: 100%;
+    }
+
+    &__btn {
+      position: absolute;
+      bottom: 55px;
+      left: 55px;
+      width: 177px;
+      height: 47px;
+      background: #A5D364;
+      border-radius: 110px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        transition: all .2s ease-in-out;
+        box-shadow: 0 4px 4px #9D9D9D;
+        background: #F4EFE9;
+        border: 2px solid #A5D364;
+        color: #A5D364;
+      }
+
+      // Text
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+
+    &__arrow-right {
+
+      img {
+        top: 41%;
+        right: -22px;
+        display: inline-block;
+        position: absolute;
+        cursor: pointer;
+      }
+
+    }
+
+    &__arrow-left {
+
+      img {
+        top: 39%;
+        left: -22px;
+        display: inline-block;
+        position: absolute;
+        cursor: pointer;
+        transform: rotate(180deg);
+      }
+
+    }
+  }
+}
